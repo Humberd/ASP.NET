@@ -63,6 +63,13 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Content\Zad4.Task1.Master.css" />
+    <Content Include="Scripts\Zad4.Task1.Master.js" />
+    <Content Include="Zad4.Task1.aspx" />
+    <Content Include="Zad4.Task1.Master" />
+    <Content Include="Zad4.Task1.Menu1.Child1.aspx" />
+    <Content Include="Zad4.Task1.Menu2.Child2.aspx" />
+    <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -83,6 +90,34 @@
     </Compile>
     <Compile Include="Task1.aspx.designer.cs">
       <DependentUpon>Task1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Zad4.Task1.aspx.cs">
+      <DependentUpon>Zad4.Task1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Zad4.Task1.aspx.designer.cs">
+      <DependentUpon>Zad4.Task1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Zad4.Task1.Master.cs">
+      <DependentUpon>Zad4.Task1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Zad4.Task1.Master.designer.cs">
+      <DependentUpon>Zad4.Task1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Zad4.Task1.Menu1.Child1.aspx.cs">
+      <DependentUpon>Zad4.Task1.Menu1.Child1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Zad4.Task1.Menu1.Child1.aspx.designer.cs">
+      <DependentUpon>Zad4.Task1.Menu1.Child1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Zad4.Task1.Menu2.Child2.aspx.cs">
+      <DependentUpon>Zad4.Task1.Menu2.Child2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Zad4.Task1.Menu2.Child2.aspx.designer.cs">
+      <DependentUpon>Zad4.Task1.Menu2.Child2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

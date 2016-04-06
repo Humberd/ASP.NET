@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Zad4.Task1.master.cs" Inherits="WebApplication16.Zad4_Task1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" runat="server" />
+    <link href="Content/Zad4.Task1.Master.css" rel="stylesheet" />
+    <script src="Scripts/jquery-2.2.1.js"></script>
+    <script src="Scripts/Zad4.Task1.Master.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div role="navigation" class="navbar navbar-inverse navbar-static-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target="#nav-bar-content" type="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">ASP.NET</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row row-panel">
+                <div class="col-sm-4">
+                    <div class="left-panel">
+                        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" StaticDisplayLevels="2">
+                            <LevelMenuItemStyles>
+                                <asp:MenuItemStyle Font-Underline="False" />
+                                <asp:MenuItemStyle CssClass="btn btn-success custom-button" Font-Underline="False" />
+                                <asp:MenuItemStyle CssClass="btn btn-danger child-button" Font-Underline="False" />
+                            </LevelMenuItemStyles>
+                            <LevelSelectedStyles>
+                                <asp:MenuItemStyle BackColor="Pink" Font-Underline="False" />
+                                <asp:MenuItemStyle BackColor="Pink" Font-Underline="False" />
+                                <asp:MenuItemStyle BackColor="Pink" Font-Underline="False" />
+                                <asp:MenuItemStyle BackColor="Pink" Font-Underline="False" />
+                                <asp:MenuItemStyle BackColor="Pink" Font-Underline="False" />
+                            </LevelSelectedStyles>
+                        </asp:Menu>
+                        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="main-content">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

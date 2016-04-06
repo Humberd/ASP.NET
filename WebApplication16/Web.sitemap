@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title=""  description="">
+    <siteMapNode url="Zad4.Task1.aspx" title="Main Page"/>
+    <siteMapNode title="Menu 1">
+      <siteMapNode url="Zad4.Task1.Menu1.Child1.aspx" title="Child 1"/>
+      <siteMapNode title="Child 2"/>
+    </siteMapNode>
+    <siteMapNode title="Menu 2">
+      <siteMapNode title="Child 1"/>
+      <siteMapNode url="Zad4.Task1.Menu2.Child2.aspx" title="Child 2"/>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
