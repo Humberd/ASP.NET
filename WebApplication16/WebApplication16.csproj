@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Zad5.Task1.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -64,6 +65,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="Content\Zad4.Task1.Master.css" />
+    <Content Include="DvdList.xml" />
     <Content Include="Scripts\Zad4.Task1.Master.js" />
     <Content Include="Zad4.Task1.aspx" />
     <Content Include="Zad4.Task1.Master" />
@@ -118,6 +120,13 @@
     </Compile>
     <Compile Include="Zad4.Task1.Menu2.Child2.aspx.designer.cs">
       <DependentUpon>Zad4.Task1.Menu2.Child2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Zad5.Task1.aspx.cs">
+      <DependentUpon>Zad5.Task1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Zad5.Task1.aspx.designer.cs">
+      <DependentUpon>Zad5.Task1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
